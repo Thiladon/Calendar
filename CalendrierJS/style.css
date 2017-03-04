@@ -1,0 +1,22 @@
+.content table, .cal-cell-content table {
+	width: 100%;
+}
+
+.cal-body tr td, .cal-grid, .cal-row, .cal-cell-bg, .cal-cell-content, .cal-cell-content table {
+	height: 100%;
+}
+
+.cal-head tr th {
+	background-color: #1565c0;
+	color: white;
+}
+
+.cal-row {
+	position: relative;
+}
+
+.cal-cell-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
