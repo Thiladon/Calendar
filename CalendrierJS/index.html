@@ -2,290 +2,293 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<script src="script.js"></script>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	
 	<body>
-		<div class="content">
-			<table>
-				<thead class="cal-head">
-					<tr>
-						<th>Lundi</th>
-						<th>Lundi</th>
-						<th>Lundi</th>
-						<th>Lundi</th>
-						<th>Lundi</th>
-						<th>Lundi</th>
-						<th>Lundi</th>
-					</tr>
-				</thead>
-				<tbody class="cal-body">
-					<tr>
-						<td>
-							<div class="cal-grid">
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+		<div class="cal-container">
+			<div class="cal-user-panel">
+				<div class="cal-row-panel row-s6">
+				    <div class="col-s3 chevron-left" id="year-left"><a href="#"><i class="icon">keyboard_arrow_left</i></a></div>
+				    <div class="col-s6" id="years"></div>
+				    <div class="col-s3 chevron-right" id="year-right"><a href="#"><i class="icon">keyboard_arrow_right</i></a></div>
+				</div>
+				<div class="cal-row-panel row-s6">
+				    <div class="col-s3 chevron-left" id="month-left"><a href="#"><i class="icon">keyboard_arrow_left</i></a></div>
+				    <div class="col-s6" id="month"></div>
+				    <div class="col-s3 chevron-right" id="month-right"><a href="#"><i class="icon">keyboard_arrow_right</i></a></div>
+				</div>
+			</div>
+			<div class="cal-body-container">
+				<div class="cal-body">
+					<table>
+						<tbody>
+							<tr>
+								<th>
+									<div>
+										<span>Lu</span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num1"></td>
-													<td class="cal-cell-day-content" id="call-cell-num2"></td>
-													<td class="cal-cell-day-content" id="call-cell-num3"></td>
-													<td class="cal-cell-day-content" id="call-cell-num4"></td>
-													<td class="cal-cell-day-content" id="call-cell-num5"></td>
-													<td class="cal-cell-day-content" id="call-cell-num6"></td>
-													<td class="cal-cell-day-content" id="call-cell-num7"></td>
-												</tr>
-											</thead>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Ma</span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Me</span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num1"></td>
-													<td class="cal-cell-day-content" id="call-cell-num2"></td>
-													<td class="cal-cell-day-content" id="call-cell-num3"></td>
-													<td class="cal-cell-day-content" id="call-cell-num4"></td>
-													<td class="cal-cell-day-content" id="call-cell-num5"></td>
-													<td class="cal-cell-day-content" id="call-cell-num6"></td>
-													<td class="cal-cell-day-content" id="call-cell-num7"></td>
-												</tr>
-											</thead>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Je</span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Ve</span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num8"></td>
-													<td class="cal-cell-day-content" id="call-cell-num9"></td>
-													<td class="cal-cell-day-content" id="call-cell-num10"></td>
-													<td class="cal-cell-day-content" id="call-cell-num11"></td>
-													<td class="cal-cell-day-content" id="call-cell-num12"></td>
-													<td class="cal-cell-day-content" id="call-cell-num13"></td>
-													<td class="cal-cell-day-content" id="call-cell-num14"></td>
-												</tr>
-											</thead>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Sa</span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</th>
+								<th>
+									<div>
+										<span>Di</span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num15"></td>
-													<td class="cal-cell-day-content" id="call-cell-num16"></td>
-													<td class="cal-cell-day-content" id="call-cell-num17"></td>
-													<td class="cal-cell-day-content" id="call-cell-num18"></td>
-													<td class="cal-cell-day-content" id="call-cell-num19"></td>
-													<td class="cal-cell-day-content" id="call-cell-num20"></td>
-													<td class="cal-cell-day-content" id="call-cell-num21"></td>
-												</tr>
-											</thead>
-										</table>
+								</th>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num22"></td>
-													<td class="cal-cell-day-content" id="call-cell-num23"></td>
-													<td class="cal-cell-day-content" id="call-cell-num24"></td>
-													<td class="cal-cell-day-content" id="call-cell-num25"></td>
-													<td class="cal-cell-day-content" id="call-cell-num26"></td>
-													<td class="cal-cell-day-content" id="call-cell-num27"></td>
-													<td class="cal-cell-day-content" id="call-cell-num28"></td>
-												</tr>
-											</thead>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num29"></td>
-													<td class="cal-cell-day-content" id="call-cell-num30"></td>
-													<td class="cal-cell-day-content" id="call-cell-num31"></td>
-													<td class="cal-cell-day-content" id="call-cell-num32"></td>
-													<td class="cal-cell-day-content" id="call-cell-num33"></td>
-													<td class="cal-cell-day-content" id="call-cell-num34"></td>
-													<td class="cal-cell-day-content" id="call-cell-num35"></td>
-												</tr>
-											</thead>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num36"></td>
-													<td class="cal-cell-day-content" id="call-cell-num37"></td>
-													<td class="cal-cell-day-content" id="call-cell-num38"></td>
-													<td class="cal-cell-day-content" id="call-cell-num39"></td>
-													<td class="cal-cell-day-content" id="call-cell-num40"></td>
-													<td class="cal-cell-day-content" id="call-cell-num41"></td>
-													<td class="cal-cell-day-content" id="call-cell-num42"></td>
-												</tr>
-											</thead>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-								</div>
-								<div class="cal-row">
-									<div class="cal-cell-bg">
-										<table>
-											<tbody>
-												<tr>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-													<td class="cal-cell-day"></td>
-												</tr>
-											</tbody>
-										</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
 									</div>
-									<div class="cal-cell-content">
-										<table>
-											<thead>
-												<tr>
-													<td class="cal-cell-day-content" id="call-cell-num43"></td>
-													<td class="cal-cell-day-content" id="call-cell-num44"></td>
-													<td class="cal-cell-day-content" id="call-cell-num45"></td>
-													<td class="cal-cell-day-content" id="call-cell-num46"></td>
-													<td class="cal-cell-day-content" id="call-cell-num47"></td>
-													<td class="cal-cell-day-content" id="call-cell-num48"></td>
-													<td class="cal-cell-day-content" id="call-cell-num49"></td>
-												</tr>
-											</thead>
-										</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
 									</div>
-								</div>
-								
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+								<td>
+									<div>
+										<span></span>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
 		</div>
+
+		<script src="js/script.js"></script>
+	
 	</body>
 </html>
