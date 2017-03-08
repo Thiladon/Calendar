@@ -49,6 +49,7 @@
 
 body {
 	background-image: url("../img/wallpaper.jpg");
+	position: relative;
 	background-size: cover;
 	padding: 0;
 	margin: 0;
@@ -193,4 +194,18 @@ span.old-month, span.next-month {
     width: 40px !important;
     transform: translate(6px);
     background-color: #3fabab;
+}
+
+.button-change {
+	position: absolute;
+    width: 150px;
+    height: 48px;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.89);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    text-align: center;
+    line-height: 2.9;
+    text-decoration: none;
 }
